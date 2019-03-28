@@ -12,7 +12,7 @@
   ### app.gradle
 
   ```java
-  implementation 'com.autoid:autoidutils:1.0.3'
+  implementation 'com.autoid:autoidutils:1.0.4'
   ```
 
 ## Tree:
