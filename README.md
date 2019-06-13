@@ -13,7 +13,7 @@
 ### app.gradle
 
 ```java
-  implementation 'com.autoid:autoidutils:1.0.6'
+  implementation 'com.autoid:autoidutils:1.0.7'
 ```
 
 ## Tree:
@@ -38,4 +38,24 @@
     │    ├── ScrollingTextView.java
     │    └── TopBar.java
     ├── Application.java
+```
+
+### Current Dependency
+
+```java
+    api 'androidx.appcompat:appcompat:1.1.0-beta01'
+    api 'androidx.recyclerview:recyclerview:1.0.0'
+    api 'androidx.cardview:cardview:1.0.0'
+    api 'com.google.android.material:material:1.1.0-alpha07'
+    api 'androidx.constraintlayout:constraintlayout:2.0.0-beta1'
+    //异步任务
+    api 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    api 'io.reactivex.rxjava2:rxjava:2.1.0'
+    //网络加载
+    api 'com.squareup.retrofit2:retrofit:2.3.0'
+    api 'com.squareup.retrofit2:converter-gson:2.3.0'
+    api 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    //异常捕获
+    api 'cat.ereza:customactivityoncrash:2.2.0'
+    api files('libs/register-release.aar')
 ```
